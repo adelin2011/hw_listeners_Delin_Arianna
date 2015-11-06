@@ -1,10 +1,9 @@
-var pageheader = document.getElementById("heading"); 
-	heading.addEventListener("click," function modifyHTML(){
-		console.log("You clicked me");
-	}
+var pageheader = document.getElementById("pageheader"); 
+pageheader.addEventListener("click", function modifyHTML(){
+	console.log("You clicked me");
 
 var paragraph = document.createElement("p"); 
-var node = document.createTextNode ("This is click number x"); 
-paragraph.appendChild(node); 
-var element = document.getElementById("div1"); 
-element.appendChild(paragraph); 	
+paragraph.innerHTML = "This is click number 1"; 
+var element = document.body; 
+element.appendChild(paragraph); 
+})
