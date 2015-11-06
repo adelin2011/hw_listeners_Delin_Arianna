@@ -1,0 +1,21 @@
+section{
+	padding-left: 30px; 
+	padding-right: 30px; 
+}
+
+h1{
+	font-family: Arial; 
+	color:#00008B;
+}
+
+h2{
+	font-family: Arial; 
+	color: #4B0082;
+	font-style: italic;
+}
+
+article{
+	margin: auto;
+	padding-left: 100px; 
+	text-align: center;
+}
